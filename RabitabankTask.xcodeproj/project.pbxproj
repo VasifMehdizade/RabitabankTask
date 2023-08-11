@@ -102,28 +102,13 @@
 		2A6C7F9E2A86454A001FF3D1 /* RabitabankTask */ = {
 			isa = PBXGroup;
 			children = (
-				2A6C7FF02A864B43001FF3D1 /* HomePage */,
-				2A6C7FCC2A86481A001FF3D1 /* Currency */,
-				2A6C7FCB2A86480F001FF3D1 /* Conversion */,
 				2A6C7F9F2A86454A001FF3D1 /* AppDelegate.swift */,
-				2A6C7FE72A864A08001FF3D1 /* LoginController.swift */,
-				2A6C7FE92A864A46001FF3D1 /* HomePageController.swift */,
-				2A6C7FEB2A864A9E001FF3D1 /* CurrencyController.swift */,
-				2A6C7FEE2A864AD2001FF3D1 /* ConversionController.swift */,
+				2A6C7FFE2A864E6B001FF3D1 /* Scenes */,
+				2A6C7FFF2A864E93001FF3D1 /* Base */,
+				2A6C7FFC2A864E34001FF3D1 /* Helper */,
 				2A6C7FA82A86454B001FF3D1 /* Assets.xcassets */,
 				2A6C7FAA2A86454B001FF3D1 /* LaunchScreen.storyboard */,
 				2A6C7FAD2A86454B001FF3D1 /* Info.plist */,
-				2A6C7FB32A864631001FF3D1 /* BaseVC.swift */,
-				2A6C7FB72A864663001FF3D1 /* BaseNC.swift */,
-				2A6C7FB92A864692001FF3D1 /* NSLayout.swift */,
-				2A6C7FBB2A8646C5001FF3D1 /* CustomButtonView.swift */,
-				2A6C7FBD2A8646FF001FF3D1 /* CustomTextField.swift */,
-				2A6C7FBF2A86472D001FF3D1 /* CustomCollectionViewCell.swift */,
-				2A6C7FC12A86474E001FF3D1 /* CurrencyTableViewCell.swift */,
-				2A6C7FC32A864777001FF3D1 /* NavigationBarView.swift */,
-				2A6C7FC52A86479A001FF3D1 /* UIViewHeader.swift */,
-				2A6C7FC72A8647C2001FF3D1 /* ConvertUIView.swift */,
-				2A6C7FC92A8647F4001FF3D1 /* ConverterTableViewCell.swift */,
 			);
 			path = RabitabankTask;
 			sourceTree = "<group>";
@@ -131,8 +116,9 @@
 		2A6C7FCB2A86480F001FF3D1 /* Conversion */ = {
 			isa = PBXGroup;
 			children = (
-				2A6C7FD62A8648B1001FF3D1 /* ViewModel */,
+				2A6C7FFB2A864D72001FF3D1 /* View */,
 				2A6C7FCD2A864822001FF3D1 /* Model */,
+				2A6C7FD62A8648B1001FF3D1 /* ViewModel */,
 			);
 			path = Conversion;
 			sourceTree = "<group>";
@@ -186,6 +172,7 @@
 		2A6C7FE62A8649D0001FF3D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2A6C7FEB2A864A9E001FF3D1 /* CurrencyController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				2A6C7FF42A864B7A001FF3D1 /* Model */,
+				2A6C7FF92A864D47001FF3D1 /* View */,
 				2A6C7FF12A864B4E001FF3D1 /* ViewModel */,
 			);
 			path = HomePage;
@@ -214,6 +202,66 @@
 				2A6C7FF72A864BA2001FF3D1 /* HomePageModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2A6C7FF92A864D47001FF3D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FE92A864A46001FF3D1 /* HomePageController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A6C7FFB2A864D72001FF3D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FEE2A864AD2001FF3D1 /* ConversionController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A6C7FFC2A864E34001FF3D1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FC32A864777001FF3D1 /* NavigationBarView.swift */,
+				2A6C7FB92A864692001FF3D1 /* NSLayout.swift */,
+				2A6C7FBB2A8646C5001FF3D1 /* CustomButtonView.swift */,
+				2A6C7FBD2A8646FF001FF3D1 /* CustomTextField.swift */,
+				2A6C7FBF2A86472D001FF3D1 /* CustomCollectionViewCell.swift */,
+				2A6C7FC12A86474E001FF3D1 /* CurrencyTableViewCell.swift */,
+				2A6C7FC52A86479A001FF3D1 /* UIViewHeader.swift */,
+				2A6C7FC72A8647C2001FF3D1 /* ConvertUIView.swift */,
+				2A6C7FC92A8647F4001FF3D1 /* ConverterTableViewCell.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2A6C7FFD2A864E58001FF3D1 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FE72A864A08001FF3D1 /* LoginController.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		2A6C7FFE2A864E6B001FF3D1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FCB2A86480F001FF3D1 /* Conversion */,
+				2A6C7FCC2A86481A001FF3D1 /* Currency */,
+				2A6C7FF02A864B43001FF3D1 /* HomePage */,
+				2A6C7FFD2A864E58001FF3D1 /* LoginPage */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2A6C7FFF2A864E93001FF3D1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FB72A864663001FF3D1 /* BaseNC.swift */,
+				2A6C7FB32A864631001FF3D1 /* BaseVC.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

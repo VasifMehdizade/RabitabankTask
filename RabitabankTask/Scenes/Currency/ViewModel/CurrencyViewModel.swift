@@ -16,7 +16,7 @@ class CurrencyViewModel {
     }
 
     func jsonSetup() {
-        if let jsonFile = Bundle.main.url(forResource: "CashCurrencyModel", withExtension: "json"), let data = try? Data(contentsOf: jsonFile) {
+        if let jsonFile = Bundle.main.url(forResource: "CashCurrency", withExtension: "json"), let data = try? Data(contentsOf: jsonFile) {
             do {
                 currencyModel = try JSONDecoder().decode([CurrencyModel].self, from: data)
             }

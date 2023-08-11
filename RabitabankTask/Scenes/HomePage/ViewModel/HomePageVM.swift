@@ -9,12 +9,12 @@ import Foundation
 
 class ViewModel {
     
-    var homePageModel = [Model]()
+    var homePageModel = [HomePageModel]()
 
     func jsonSetup() {
-        if let jsonFile = Bundle.main.url(forResource: "HomePageCell", withExtension: "json"), let data = try? Data(contentsOf: jsonFile) {
+        if let jsonFile = Bundle.main.url(forResource: "HomePage", withExtension: "json"), let data = try? Data(contentsOf: jsonFile) {
             do {
-                homePageModel = try JSONDecoder().decode([Model].self, from: data)
+                homePageModel = try JSONDecoder().decode([HomePageModel].self, from: data)
             }
             catch {
                 print(error)

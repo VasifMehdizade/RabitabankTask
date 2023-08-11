@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Model : Codable{
+struct HomePageModel: Codable{
     var icon: String
     var title: String
     var subtitle: String
