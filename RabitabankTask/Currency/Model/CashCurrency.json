@@ -1,0 +1,20 @@
+[
+    {
+        "icon": "united-states-of-america",
+        "name": "USD",
+        "alish": "1.695",
+        "satish": "1.7025"
+    },
+    {
+        "icon": "european-union",
+        "name": "EUR",
+        "alish": "1.843",
+        "satish": "1.884"
+    },
+    {
+        "icon": "russia",
+        "name": "RUB",
+        "alish": "0.0173",
+        "satish": "0.0183"
+    }
+]
