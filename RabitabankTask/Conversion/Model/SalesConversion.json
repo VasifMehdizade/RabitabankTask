@@ -1,0 +1,31 @@
+[
+    {"amount":"1",
+        "name":"AZN",
+        "icon":"manat",
+        "description":"Azərb. yeni manatı"
+    },
+    
+    {"amount":"0.66",
+        "name":"USD",
+        "icon":"dollar-symbol",
+        "description":"Amerika dolları"
+    },
+    
+    {"amount":"0.599",
+        "name":"EUR",
+        "icon":"euro",
+        "description":"Avro"
+    },
+    
+    {"amount":"53.411",
+        "name":"RUB",
+        "icon":"ruble-currency-sign",
+        "description":"Rusiya rublu"
+    },
+    {"amount":"0.491",
+        "name":"GBP",
+        "icon":"british-pound-symbol",
+        "description":"Britaniya funtu"
+    }
+]
+ 
