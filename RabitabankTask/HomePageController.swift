@@ -41,8 +41,8 @@ class HomePageController: BaseVC {
         return label
     }()
     
-    lazy var logoutButton: ButtonView = {
-        let button = ButtonView()
+    lazy var logoutButton: CustomButtonView = {
+        let button = CustomButtonView()
         button.backgroundColor = .systemBlue
         button.setTitleColor(.black, for: .normal)
         button.title = "Log out"

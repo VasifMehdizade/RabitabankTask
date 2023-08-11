@@ -31,6 +31,11 @@
 		2A6C7FE52A8649BB001FF3D1 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FE42A8649BB001FF3D1 /* CurrencyModel.swift */; };
 		2A6C7FE82A864A08001FF3D1 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FE72A864A08001FF3D1 /* LoginController.swift */; };
 		2A6C7FEA2A864A46001FF3D1 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FE92A864A46001FF3D1 /* HomePageController.swift */; };
+		2A6C7FEC2A864A9E001FF3D1 /* CurrencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FEB2A864A9E001FF3D1 /* CurrencyController.swift */; };
+		2A6C7FEF2A864AD2001FF3D1 /* ConversionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FEE2A864AD2001FF3D1 /* ConversionController.swift */; };
+		2A6C7FF32A864B60001FF3D1 /* HomePageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FF22A864B60001FF3D1 /* HomePageVM.swift */; };
+		2A6C7FF62A864B8B001FF3D1 /* HomePage.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A6C7FF52A864B8B001FF3D1 /* HomePage.json */; };
+		2A6C7FF82A864BA2001FF3D1 /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FF72A864BA2001FF3D1 /* HomePageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +65,11 @@
 		2A6C7FE42A8649BB001FF3D1 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 		2A6C7FE72A864A08001FF3D1 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		2A6C7FE92A864A46001FF3D1 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		2A6C7FEB2A864A9E001FF3D1 /* CurrencyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyController.swift; sourceTree = "<group>"; };
+		2A6C7FEE2A864AD2001FF3D1 /* ConversionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionController.swift; sourceTree = "<group>"; };
+		2A6C7FF22A864B60001FF3D1 /* HomePageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVM.swift; sourceTree = "<group>"; };
+		2A6C7FF52A864B8B001FF3D1 /* HomePage.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HomePage.json; sourceTree = "<group>"; };
+		2A6C7FF72A864BA2001FF3D1 /* HomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +102,14 @@
 		2A6C7F9E2A86454A001FF3D1 /* RabitabankTask */ = {
 			isa = PBXGroup;
 			children = (
+				2A6C7FF02A864B43001FF3D1 /* HomePage */,
 				2A6C7FCC2A86481A001FF3D1 /* Currency */,
 				2A6C7FCB2A86480F001FF3D1 /* Conversion */,
 				2A6C7F9F2A86454A001FF3D1 /* AppDelegate.swift */,
 				2A6C7FE72A864A08001FF3D1 /* LoginController.swift */,
 				2A6C7FE92A864A46001FF3D1 /* HomePageController.swift */,
+				2A6C7FEB2A864A9E001FF3D1 /* CurrencyController.swift */,
+				2A6C7FEE2A864AD2001FF3D1 /* ConversionController.swift */,
 				2A6C7FA82A86454B001FF3D1 /* Assets.xcassets */,
 				2A6C7FAA2A86454B001FF3D1 /* LaunchScreen.storyboard */,
 				2A6C7FAD2A86454B001FF3D1 /* Info.plist */,
@@ -177,6 +190,32 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		2A6C7FF02A864B43001FF3D1 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FF42A864B7A001FF3D1 /* Model */,
+				2A6C7FF12A864B4E001FF3D1 /* ViewModel */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		2A6C7FF12A864B4E001FF3D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FF22A864B60001FF3D1 /* HomePageVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2A6C7FF42A864B7A001FF3D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FF52A864B8B001FF3D1 /* HomePage.json */,
+				2A6C7FF72A864BA2001FF3D1 /* HomePageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,6 +277,7 @@
 				2A6C7FE32A8649A3001FF3D1 /* Currency.json in Resources */,
 				2A6C7FE12A86498D001FF3D1 /* CashCurrency.json in Resources */,
 				2A6C7FAC2A86454B001FF3D1 /* LaunchScreen.storyboard in Resources */,
+				2A6C7FF62A864B8B001FF3D1 /* HomePage.json in Resources */,
 				2A6C7FA92A86454B001FF3D1 /* Assets.xcassets in Resources */,
 				2A6C7FD52A8648A0001FF3D1 /* SalesConversion.json in Resources */,
 				2A6C7FD12A86486F001FF3D1 /* Conversion.json in Resources */,
@@ -253,10 +293,13 @@
 			files = (
 				2A6C7FD82A8648C9001FF3D1 /* ConversionViewModel.swift in Sources */,
 				2A6C7FDC2A864949001FF3D1 /* CurrencyViewModel.swift in Sources */,
+				2A6C7FF32A864B60001FF3D1 /* HomePageVM.swift in Sources */,
 				2A6C7FBC2A8646C5001FF3D1 /* CustomButtonView.swift in Sources */,
 				2A6C7FCF2A86483A001FF3D1 /* ConversionModel.swift in Sources */,
 				2A6C7FC02A86472D001FF3D1 /* CustomCollectionViewCell.swift in Sources */,
+				2A6C7FEC2A864A9E001FF3D1 /* CurrencyController.swift in Sources */,
 				2A6C7FBA2A864692001FF3D1 /* NSLayout.swift in Sources */,
+				2A6C7FEF2A864AD2001FF3D1 /* ConversionController.swift in Sources */,
 				2A6C7FBE2A8646FF001FF3D1 /* CustomTextField.swift in Sources */,
 				2A6C7FC22A86474E001FF3D1 /* CurrencyTableViewCell.swift in Sources */,
 				2A6C7FC62A86479A001FF3D1 /* UIViewHeader.swift in Sources */,
@@ -267,6 +310,7 @@
 				2A6C7FA02A86454A001FF3D1 /* AppDelegate.swift in Sources */,
 				2A6C7FB42A864631001FF3D1 /* BaseVC.swift in Sources */,
 				2A6C7FCA2A8647F4001FF3D1 /* ConverterTableViewCell.swift in Sources */,
+				2A6C7FF82A864BA2001FF3D1 /* HomePageModel.swift in Sources */,
 				2A6C7FC42A864777001FF3D1 /* NavigationBarView.swift in Sources */,
 				2A6C7FEA2A864A46001FF3D1 /* HomePageController.swift in Sources */,
 			);

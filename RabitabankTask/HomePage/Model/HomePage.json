@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "purple",
+        "title": "Valyuta",
+        "subtitle": "Valyuta məzənnələri"
+    },
+    {
+        "icon": "red",
+        "title": "Konvertasiya",
+        "subtitle": "Valyuta konvertoru"
+    },
+    {
+        "icon": "green",
+        "title": "Dəstək",
+        "subtitle": "Bizimlə əlaqə"
+    }
+]
