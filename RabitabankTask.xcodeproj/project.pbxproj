@@ -12,6 +12,16 @@
 		2A6C7FAC2A86454B001FF3D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6C7FAA2A86454B001FF3D1 /* LaunchScreen.storyboard */; };
 		2A6C7FB42A864631001FF3D1 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FB32A864631001FF3D1 /* BaseVC.swift */; };
 		2A6C7FB82A864663001FF3D1 /* BaseNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FB72A864663001FF3D1 /* BaseNC.swift */; };
+		2A6C7FBA2A864692001FF3D1 /* NSLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FB92A864692001FF3D1 /* NSLayout.swift */; };
+		2A6C7FBC2A8646C5001FF3D1 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FBB2A8646C5001FF3D1 /* CustomButtonView.swift */; };
+		2A6C7FBE2A8646FF001FF3D1 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FBD2A8646FF001FF3D1 /* CustomTextField.swift */; };
+		2A6C7FC02A86472D001FF3D1 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FBF2A86472D001FF3D1 /* CustomCollectionViewCell.swift */; };
+		2A6C7FC22A86474E001FF3D1 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FC12A86474E001FF3D1 /* CurrencyTableViewCell.swift */; };
+		2A6C7FC42A864777001FF3D1 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FC32A864777001FF3D1 /* NavigationBarView.swift */; };
+		2A6C7FC62A86479A001FF3D1 /* UIViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FC52A86479A001FF3D1 /* UIViewHeader.swift */; };
+		2A6C7FC82A8647C2001FF3D1 /* ConvertUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FC72A8647C2001FF3D1 /* ConvertUIView.swift */; };
+		2A6C7FCA2A8647F4001FF3D1 /* ConverterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FC92A8647F4001FF3D1 /* ConverterTableViewCell.swift */; };
+		2A6C7FCF2A86483A001FF3D1 /* ConversionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7FCE2A86483A001FF3D1 /* ConversionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		2A6C7FAD2A86454B001FF3D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A6C7FB32A864631001FF3D1 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		2A6C7FB72A864663001FF3D1 /* BaseNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNC.swift; sourceTree = "<group>"; };
+		2A6C7FB92A864692001FF3D1 /* NSLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayout.swift; sourceTree = "<group>"; };
+		2A6C7FBB2A8646C5001FF3D1 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		2A6C7FBD2A8646FF001FF3D1 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		2A6C7FBF2A86472D001FF3D1 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		2A6C7FC12A86474E001FF3D1 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		2A6C7FC32A864777001FF3D1 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		2A6C7FC52A86479A001FF3D1 /* UIViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHeader.swift; sourceTree = "<group>"; };
+		2A6C7FC72A8647C2001FF3D1 /* ConvertUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertUIView.swift; sourceTree = "<group>"; };
+		2A6C7FC92A8647F4001FF3D1 /* ConverterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTableViewCell.swift; sourceTree = "<group>"; };
+		2A6C7FCE2A86483A001FF3D1 /* ConversionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,48 @@
 		2A6C7F9E2A86454A001FF3D1 /* RabitabankTask */ = {
 			isa = PBXGroup;
 			children = (
+				2A6C7FCC2A86481A001FF3D1 /* Currency */,
+				2A6C7FCB2A86480F001FF3D1 /* Conversion */,
 				2A6C7F9F2A86454A001FF3D1 /* AppDelegate.swift */,
 				2A6C7FA82A86454B001FF3D1 /* Assets.xcassets */,
 				2A6C7FAA2A86454B001FF3D1 /* LaunchScreen.storyboard */,
 				2A6C7FAD2A86454B001FF3D1 /* Info.plist */,
 				2A6C7FB32A864631001FF3D1 /* BaseVC.swift */,
 				2A6C7FB72A864663001FF3D1 /* BaseNC.swift */,
+				2A6C7FB92A864692001FF3D1 /* NSLayout.swift */,
+				2A6C7FBB2A8646C5001FF3D1 /* CustomButtonView.swift */,
+				2A6C7FBD2A8646FF001FF3D1 /* CustomTextField.swift */,
+				2A6C7FBF2A86472D001FF3D1 /* CustomCollectionViewCell.swift */,
+				2A6C7FC12A86474E001FF3D1 /* CurrencyTableViewCell.swift */,
+				2A6C7FC32A864777001FF3D1 /* NavigationBarView.swift */,
+				2A6C7FC52A86479A001FF3D1 /* UIViewHeader.swift */,
+				2A6C7FC72A8647C2001FF3D1 /* ConvertUIView.swift */,
+				2A6C7FC92A8647F4001FF3D1 /* ConverterTableViewCell.swift */,
 			);
 			path = RabitabankTask;
+			sourceTree = "<group>";
+		};
+		2A6C7FCB2A86480F001FF3D1 /* Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FCD2A864822001FF3D1 /* Model */,
+			);
+			path = Conversion;
+			sourceTree = "<group>";
+		};
+		2A6C7FCC2A86481A001FF3D1 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		2A6C7FCD2A864822001FF3D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C7FCE2A86483A001FF3D1 /* ConversionModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +188,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A6C7FBC2A8646C5001FF3D1 /* CustomButtonView.swift in Sources */,
+				2A6C7FCF2A86483A001FF3D1 /* ConversionModel.swift in Sources */,
+				2A6C7FC02A86472D001FF3D1 /* CustomCollectionViewCell.swift in Sources */,
+				2A6C7FBA2A864692001FF3D1 /* NSLayout.swift in Sources */,
+				2A6C7FBE2A8646FF001FF3D1 /* CustomTextField.swift in Sources */,
+				2A6C7FC22A86474E001FF3D1 /* CurrencyTableViewCell.swift in Sources */,
+				2A6C7FC62A86479A001FF3D1 /* UIViewHeader.swift in Sources */,
+				2A6C7FC82A8647C2001FF3D1 /* ConvertUIView.swift in Sources */,
 				2A6C7FB82A864663001FF3D1 /* BaseNC.swift in Sources */,
 				2A6C7FA02A86454A001FF3D1 /* AppDelegate.swift in Sources */,
 				2A6C7FB42A864631001FF3D1 /* BaseVC.swift in Sources */,
+				2A6C7FCA2A8647F4001FF3D1 /* ConverterTableViewCell.swift in Sources */,
+				2A6C7FC42A864777001FF3D1 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
